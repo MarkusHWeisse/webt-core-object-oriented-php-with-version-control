@@ -1,0 +1,6 @@
+iframe {
+	font-family:garamond;
+	color:blue;
+	margin-left:calc((100vw - 1200px) / 4);
+	margin-top:160px;
+}	
