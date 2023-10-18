@@ -1,0 +1,100 @@
+.AOAIframe {
+	font-family:garamond;
+	margin-left:calc((100vw - 1200px) / 4);
+	margin-top:80px;
+	border:none;
+}	
+
+.AOAIframe > div {
+	display:inline-block;
+}
+
+iframe {
+	margin-top: 80px;
+	display:inline-block;
+}
+
+body {
+	background-color: rgb(114, 0, 0);
+	font-family: sans-serif;
+}
+
+.container {
+	display:flex;
+	align-items:center;
+}
+
+.imgdiv {
+	min-width: 0px;
+	flex: 1 1 0;
+}
+
+.searchdiv {
+	flex: 1 1 0;
+	text-align:center;
+}
+
+.formdiv {
+	flex: 1 1 0;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.formdiv > form > input {
+	width:100px;
+}
+
+#Logo {
+	padding-top:30px;
+	padding-left:30px;
+	min-width: 0px;
+}
+
+#searchBar {
+	width:390px;
+	height: 30px;
+}
+
+.AOAButtons {
+	height:30px;
+	width:60px;
+	background-color: rgb(170, 0, 0, 1.0);
+	border: none;
+}
+
+.createTrailerForm {
+	display:inline-block;
+	text-align:center;
+	margin: auto;
+	width: 50%;
+	min-height:50vh;
+	height: 100%;
+	padding-left:20%;
+	margin-top: 120px;
+	max-width:50vw;
+	transform:scale(1.5, 1.5);
+}
+
+.createTrailerForm > form {
+	display:inline-block;
+	text-align: left;
+}
+
+.createTrailerFormLeft {
+	display:inline-block;
+	width:200px;
+}
+
+/*
+.buttonCreate {
+	margin-left: 0px !important;
+	width: 100% !important;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}*/
+
+
+
+
+
